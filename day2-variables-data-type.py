@@ -30,3 +30,12 @@ print(3-4)
 # PEMDASLR example
 # it will print 7
 print(3 * 3 + 3 / 3 - 3)
+
+# auto convert from float to int if we use // 
+print(8 // 3)
+
+#inserting different data types and print it without converting to similar data types, using f-string on print() function
+score = 0
+height = 1.70
+isWinning = True
+print(f"your score is {score}, your height is {height}, you are winning is {isWinning}")
