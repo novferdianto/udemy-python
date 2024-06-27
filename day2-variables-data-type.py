@@ -12,7 +12,7 @@ print(result)
 
 
 # Mathematical Operations in Python
-# PEMDAS
+# PEMDASLR  -> priority math calculation Left To Rigth and see the highest priority from Parenthesis to Substraction
 # Parenthesis ()
 print((3+3)*2)
 # Exponents **
@@ -25,4 +25,8 @@ print(3/4)
 print(3+4)
 # Substraction -
 print(3-4)
+
 # This is how using mathematical operation in python
+# PEMDASLR example
+# it will print 7
+print(3 * 3 + 3 / 3 - 3)

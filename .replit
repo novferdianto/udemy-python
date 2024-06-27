@@ -1,7 +1,9 @@
 modules = ["python-3.12", "pyright-extended"]
-run = "python3 day2-variables-data-type.py"
+# run = "python3 day2-variables-data-type.py"
+run = "python3 bmi-index.py"
 [nix]
 channel = "stable-23_11"
 
 [deployment]
-run = ["sh", "-c", "python3 day2-variables-data-type.py"]
+# run = ["sh", "-c", "python3 day2-variables-data-type.py"]
+run = ["sh", "-c", "python3 bmi-index.py"]
